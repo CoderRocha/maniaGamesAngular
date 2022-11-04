@@ -4,61 +4,6 @@ body {
     background-color: #121212
 }
 
-.cabecalho {
-    text-align: center;
-}
-
-.name {
-    color: red;
-    background-color: #000569;
-    font-size: 40px;
-    font-family: 'Inder', sans-serif;
-    letter-spacing: 2px;
-}
-
-.barras {
-    display: none;
-    width: 30px;
-}
-
-.menu-jquery {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 5px #000229;
-}
-
-.menu-jquery-escondido {
-    display: none;
-}
-
-.menutop {
-    font-size: 28px;
-    background-color: #000350;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menutop a {
-    font-family: 'Inria Sans', sans-serif;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 5px;
-}
-
-.menutop svg {
-    width: 30px;
-    fill: white;
-}
-
-.menutop a:hover {
-    color: gray;
-    scale: 0.9;
-}
-
 .produto {
     margin: auto;
     text-align: center;
@@ -187,16 +132,6 @@ body {
     scale: 0.9;
 }
 
-.socials {
-    width: 32px;
-    border-radius: 8px;
-    margin-right: 10px;
-}
-
-.socials:hover {
-    scale: 1.1;
-}
-
 .contato {
     text-align: center;
     font-family: 'Inria Sans', sans-serif;
@@ -249,20 +184,6 @@ body {
 .register:hover {
     color: grey;
 }
-
-footer {
-    text-align: center;
-    display: center;
-    font-size: 22px;
-    font-family: 'Inria Sans', sans-serif;
-    background-color: #0C0C0C;
-    height: 140px;
-    color: white;
-    width: 100%;
-    height: 100%;
-}
-
-
 
 @media screen and (max-width: 601px) {
     .name {
@@ -347,16 +268,6 @@ footer {
 
     .button {
         padding: 10px 24px;
-    }
-
-    .socials {
-        width: 24px;
-        border-radius: 8px;
-        margin-right: 10px;
-    }
-
-    footer {
-        font-size: 18px;
     }
 }
 
@@ -448,15 +359,5 @@ footer {
 
     .button {
         padding: 8px 12px;
-    }
-
-    .socials {
-        width: 20px;
-        border-radius: 8px;
-        margin-right: 10px;
-    }
-
-    footer {
-        font-size: 14px;
     }
 }
