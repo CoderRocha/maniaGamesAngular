@@ -12,6 +12,8 @@
 
         <input type="submit" value="Entrar" onclick="clickLogin()"><br>
     </form>
+    <br *ngIf=" mensagem != '' ">
+    <p id="msgErro" *ngIf=" mensagem != '' ">{{mensagem}}</p>
 </div>
 <br>
 <br>

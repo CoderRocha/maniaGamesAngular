@@ -231,6 +231,10 @@ body {
     font-family: 'Inria Sans', sans-serif;
 }
 
+#msgErro {
+    color: red;
+}
+
 .back {
     font-family: 'Inria Sans', sans-serif;
     text-decoration: none;
