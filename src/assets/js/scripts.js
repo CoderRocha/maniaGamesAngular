@@ -24,21 +24,21 @@ function mostrarMenu() {
 let form = document.getElementById('form');
 
 function clickLogin() {
-    if (form.checkValidity()) {
-        alert("Login realizado com sucesso!");
-    }
+    // if (form.checkValidity()) {
+    //     alert("Login realizado com sucesso!");
+    // }
 }
 
 function clickRegister() {
-    if (form.checkValidity()) {
-        alert("Registro realizado com sucesso!");
-    }
+    // if (form.checkValidity()) {
+    //     alert("Registro realizado com sucesso!");
+    // }
 }
 
 function clickContact() {
-    if (form.checkValidity()) {
-        alert("Formulário enviado com sucesso!");
-    }
+    // if (form.checkValidity()) {
+    //     alert("Formulário enviado com sucesso!");
+    // }
 }
 
 $(document).ready(function() {
