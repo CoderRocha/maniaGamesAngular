@@ -24,6 +24,7 @@ export class LoginComponent implements OnInit {
       next: (response) => { 
       console.log(response.body.user.name)
       localStorage.setItem("nomeUsuario", response.body.user.name)
+      // localStorage.removeItem("nomeUsuario")
       this.router.navigateByUrl("/")
       }, error: (msgErro) => {
         console.log(msgErro.error);

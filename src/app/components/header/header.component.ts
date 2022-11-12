@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  nome: any = localStorage.getItem("nomeUsuario");
+
   ngOnInit(): void {}
 
 }

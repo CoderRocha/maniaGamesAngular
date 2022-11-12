@@ -11,7 +11,8 @@
                 <a routerLink="">Início</a>
                 <a routerLink="/products">Produtos</a>
                 <a routerLink="/contact">Contato</a>
-                <a routerLink="/login">Login</a>
+                <a href="#" *ngIf="nome">Olá, {{nome}}</a>
+                <a routerLink="/login" *ngIf="!nome">Login</a>
             </nav>
         </h1>
     </div>
